@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --p-color: #72b70a;
+  --s-color: #4a4c4e;
+  --s-c1: #2e2c2d;
+  --s-c2: #b0b0b0;
+  --s-c3: #f4f4f4;
+}
+
+.bg-sc3 {
+  background-color: var(--s-c3);
+}
+
+.sc2 {
+  color: var(--s-c2);
+}
+.pcolor {
+  color: var(--p-color);
+}
+
+.b--pcolor {
+  border-color: var(--p-color);
+}
+.scolor {
+  color: var(--s-color);
+}
+
+.bg-pcolor {
+  background-color: var(--p-color);
+}
+
+.bg-scolor {
+  background-color: var(--s-color);
+}
+
+.bg-sc1 {
+  background-color: var(--s-c1);
+}
+
+.hover-bg-pcolor:hover {
+  background-color: var(--p-color);
+}
+
+.hover-br-pcolor:hover{
+  border-color: var(--p-color);
+}
+
+.hover-pcolor:hover {
+  color: var(--p-color);
+}
+
+
+.h25 {
+  height: 3rem;
+}
+
+.w25 {
+  width: 3rem;
+}
+
+.h32 {
+  height: 5rem;
+}
+
+.w32 {
+  width: 5rem;
+}
+
+.h22 {
+  height: 2.5rem;
+}
+
+.w22 {
+  width: 2.5rem;
+}
+
+.h35 {
+  height: 6rem;
+}
+.w35 {
+  width: 6rem;
+}
+
+.h45 {
+  height: 12rem;
+}
+.h6 {
+  height: 18rem;
+}
+
+/* Menu */
+.v-menu {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+  border-width: 1px 0 0;
+  background-color: var(--s-color);
+  border-style: solid;
+}
+
+/* ultilities */
+
+.cat-tab {
+  position: relative;
+}
+
+.diamond-hidden {
+  visibility: hidden;
+  position: absolute;
+}
+.cat-tab:hover .diamond-hidden {
+  visibility: visible;
+}
+
+.diamond-hidden,
+.diamond {
+  position: absolute;
+  bottom: -8px;
+  left: 45%;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+}
+
+/* Buttons */
+.image-box {
+  overflow: hidden;
+}
+.btn-buy {
+  background-color: #ad0800;
+  position: absolute;
+  bottom: -50px;
+  transition: bottom ease 0.3s;
+}
+.image-box:hover .btn-buy {
+  bottom: 0px;
+}
+.btn {
+  cursor: pointer;
+}
+
+.product:hover {
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+}
+
+.shadow-7 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);
+}
